@@ -49,7 +49,7 @@
 .productList .search-btn{
   position: absolute;
   background: #3D1101;
-  width: 36px;
+  max-width: 13%;
   height: 32px;
   left: 60%;
   text-align: center;
@@ -58,6 +58,7 @@
   position: absolute;
   display: flex;
   right: 0;
+  bottom: 0;
   height: 32px;
   line-height: 32px;
 }
@@ -78,8 +79,8 @@
   height: 15px;
   border-radius:50%;
   position: absolute;
-  right: -8%;
-  top: 0;
+  right: 0%;
+  bottom: 15px;
   font-family: MicrosoftJhengHeiRegular;
   font-size: 12px;
   color: #FFFFFF;
@@ -176,5 +177,20 @@
 }
   .list li{
   width: 100%;
-} 
+}
+ .productList .search-text{
+  box-sizing:border-box;
+   width: 88%;
+}
+.productList .search-btn{
+  box-sizing:border-box;
+  width: 12%;
+  left: 88%;
+}
+.productList .search-bar{
+  height: 75px;
+}
+  .productList .Checkout-text{
+  height: 28px;
+}
 }
